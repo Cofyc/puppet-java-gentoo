@@ -5,7 +5,7 @@ class java (
   $version = "1.7.0.21",
   $source = "puppet:///files/distfiles/jre-7u21-linux-x64.tar.gz",
 ) {
-  $distfile = "";
+  $distfile = ""
   case $version {
     '1.7.0.21': {
       $distfile = "jre-7u21-linux-x64.tar.gz",
